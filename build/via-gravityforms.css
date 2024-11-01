@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box; }
+
+.svg-checkmark {
+  fill: green; }
+
+.error-modal {
+  max-width: 600px;
+  padding: 10px 10px 20px 20px;
+  background: #fff;
+  margin: auto;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.5) !important; }
+  .error-modal h3 {
+    text-align: left; }
+    .error-modal h3 i {
+      margin-right: 25px; }
+  .error-modal details {
+    text-align: left;
+    white-space: pre-wrap; }
+    .error-modal details:focus {
+      outline: none; }
+  .error-modal .close-modal {
+    float: right;
+    background: none;
+    border: 0;
+    -webkit-appearance: none; }
+
+#the-list .feedName {
+  padding-left: 2em; }
+
+#tab_via-gravityforms-salesforce .api-requests {
+  padding-bottom: 0px; }
+  #tab_via-gravityforms-salesforce .api-requests .num {
+    font-weight: 500;
+    font-size: 1.25em; }
+    #tab_via-gravityforms-salesforce .api-requests .num:first-child {
+      padding-left: 25px; }
+
+#tab_via-gravityforms-salesforce .gaddon-section-description h3.settings-title,
+#tab_via-gravityforms-salesforce .gaddon-section-description .settings-title,
+#tab_via-gravityforms-salesforce h3.settings-title,
+#tab_via-gravityforms-salesforce .settings-title {
+  font-size: 1.25em;
+  display: block;
+  position: relative; }
+  #tab_via-gravityforms-salesforce .gaddon-section-description h3.settings-title.connected .svg-checkmark,
+  #tab_via-gravityforms-salesforce .gaddon-section-description .settings-title.connected .svg-checkmark,
+  #tab_via-gravityforms-salesforce h3.settings-title.connected .svg-checkmark,
+  #tab_via-gravityforms-salesforce .settings-title.connected .svg-checkmark {
+    position: absolute;
+    top: -3px;
+    left: 0; }
+  #tab_via-gravityforms-salesforce .gaddon-section-description h3.settings-title.disconnected,
+  #tab_via-gravityforms-salesforce .gaddon-section-description .settings-title.disconnected,
+  #tab_via-gravityforms-salesforce h3.settings-title.disconnected,
+  #tab_via-gravityforms-salesforce .settings-title.disconnected {
+    padding-left: 0px;
+    margin-bottom: -7px; }
+    #tab_via-gravityforms-salesforce .gaddon-section-description h3.settings-title.disconnected .svg-checkmark,
+    #tab_via-gravityforms-salesforce .gaddon-section-description .settings-title.disconnected .svg-checkmark,
+    #tab_via-gravityforms-salesforce h3.settings-title.disconnected .svg-checkmark,
+    #tab_via-gravityforms-salesforce .settings-title.disconnected .svg-checkmark {
+      display: none; }
+
+#tab_via-gravityforms-salesforce .settings-box {
+  border: 1px solid;
+  border-color: #e5e5e5;
+  background: #fff;
+  padding: 1em 0 0 1em;
+  margin-top: 1em; }
+  #tab_via-gravityforms-salesforce .settings-box .warning {
+    padding-left: 0; }
+    #tab_via-gravityforms-salesforce .settings-box .warning .fa {
+      font-size: 1.25em; }
+
+#viagf_identity_field {
+  margin: 8px 0 0 -199px; }
+
+
+/*# sourceMappingURL=via-gravityforms.css.map*/

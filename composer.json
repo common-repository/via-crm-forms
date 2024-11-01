@@ -1,0 +1,20 @@
+{
+    "require": {
+        "symfony/dotenv": "^3.3@dev",
+        "guzzlehttp/guzzle": "^6.2",
+        "viastudio/via-php-license": "*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:viastudio/via-php-license.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ViaGF\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
